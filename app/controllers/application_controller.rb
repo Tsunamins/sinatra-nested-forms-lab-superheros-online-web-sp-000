@@ -14,6 +14,9 @@ class App < Sinatra::Base
      @team_motto = params["team"]["motto"]
      @team_members = params["team"]["members"]
      
+     @team_members.each do |details|
+       
+     
      
       
             
