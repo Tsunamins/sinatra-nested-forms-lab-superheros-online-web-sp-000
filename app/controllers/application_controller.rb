@@ -20,7 +20,7 @@ class App < Sinatra::Base
      
      @member2_name = params["team"]["members"][1]["hero_name"]
      @member2_power = params["team"]["members"][1]["power"]
-     @member3_bio = params["team"]["members"][1]["bio"]
+     @member2_bio = params["team"]["members"][1]["bio"]
      
      @member3_name = params["team"]["members"][2]["hero_name"]
      @member3_power = params["team"]["members"][2]["power"]
