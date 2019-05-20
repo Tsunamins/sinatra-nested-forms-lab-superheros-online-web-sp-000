@@ -1,7 +1,7 @@
 
  
   <h1><%= params["team"]["name"] %></h1>
-  <h2><%= binding.pry params["team"]["motto"] %></h2>
+  <h2><%= params["team"]["motto"] binding.pry %></h2>
   
   <h2><%= params["team"]["members"][0]["name"] %></h2>
   <p><%= params["team"]["members"][0]["power"] %></p>
