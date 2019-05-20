@@ -26,7 +26,7 @@ class App < Sinatra::Base
      @member3_power = params["team"]["members"][2]["power"]
      @member3_bio = params["team"]["members"][2]["bio"]
      
-    
+    binding.pry
       
      
        
