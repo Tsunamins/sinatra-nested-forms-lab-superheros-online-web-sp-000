@@ -10,9 +10,13 @@ class App < Sinatra::Base
     
     post '/teams' do 
      
-     @team = params["team"]
+     @team_name = params["team"]["name"]
+     @team_motto = params["team"]["motto"]
      @team_members = params["team"]["members"]
+     
+     binding.pry
       
+            
       #   @ = Pirate.new(params[:pirate])
 
       # params[:pirate][:ships].each do |details|
