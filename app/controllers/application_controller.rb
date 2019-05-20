@@ -10,6 +10,8 @@ class App < Sinatra::Base
     
     post '/teams' do 
      
+     @team = params["team"]
+     @team_members = params["team"]["members"]
       
       #   @ = Pirate.new(params[:pirate])
 
