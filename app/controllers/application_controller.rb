@@ -15,7 +15,8 @@ class App < Sinatra::Base
      @team_members = params["team"]["members"]
      
     @team_members.each do |key, value| 
-      @[:hero_name]
+      @hero_names = [:hero_name]
+      
      
        
      
